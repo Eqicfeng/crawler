@@ -91,7 +91,6 @@
                                         <figure class="effect-bubba">
                                             <img src="img/tm-img-01-tn.jpg" alt="Image" class="img-fluid tm-img">
                                             <figcaption>
-                                                <h2 class="tm-figure-title">Question <span>One</span></h2>
                                                 <?php
                                                 echo "<p class='tm-figure-description'>$title[0]</p>";
                                                 ?>
@@ -105,11 +104,12 @@
                                         <figure class="effect-bubba">
                                             <img src="img/tm-img-02-tn.jpg" alt="Image" class="img-fluid tm-img">
                                             <figcaption>
-                                                <h2 class="tm-figure-title">Question <span>Two</span></h2>
                                                 <?php
                                                 echo "<p class='tm-figure-description'>$title[1]</p>";
                                                 ?>
-                                                <a href="img/tm-img-02.jpg">View more</a>
+                                                <?php
+                                                echo "<a href='$url[1]'>View more</a>";
+                                                ?>
                                             </figcaption>
                                         </figure>
                                     </div>
@@ -117,11 +117,12 @@
                                         <figure class="effect-bubba">
                                             <img src="img/tm-img-03-tn.jpg" alt="Image" class="img-fluid tm-img">
                                             <figcaption>
-                                                <h2 class="tm-figure-title">Question <span>Three</span></h2>
                                                 <?php
                                                 echo "<p class='tm-figure-description'>$title[2]</p>";
                                                 ?>
-                                                <a href="img/tm-img-03.jpg">View more</a>
+                                                <?php
+                                                echo "<a href='$url[2]'>View more</a>";
+                                                ?>
                                             </figcaption>           
                                         </figure>
                                     </div>
@@ -129,11 +130,12 @@
                                         <figure class="effect-bubba">
                                             <img src="img/tm-img-04-tn.jpg" alt="Image" class="img-fluid tm-img">
                                             <figcaption>
-                                                <h2 class="tm-figure-title">Question <span>Four</span></h2>
                                                 <?php
                                                 echo "<p class='tm-figure-description'>$title[3]</p>";
                                                 ?>
-                                                <a href="img/tm-img-04.jpg">View more</a>
+                                                <?php
+                                                echo "<a href='$url[3]'>View more</a>";
+                                                ?>
                                             </figcaption>           
                                         </figure>
                                     </div>  
@@ -141,11 +143,12 @@
                                         <figure class="effect-bubba">
                                             <img src="img/tm-img-05-tn.jpg" alt="Image" class="img-fluid tm-img">
                                             <figcaption>
-                                                <h2 class="tm-figure-title">Question <span>Five</span></h2>
                                                 <?php
                                                 echo "<p class='tm-figure-description'>$title[4]</p>";
                                                 ?>
-                                                <a href="img/tm-img-05.jpg">View more</a>
+                                                <?php
+                                                echo "<a href='$url[4]'>View more</a>";
+                                                ?>
                                             </figcaption>           
                                         </figure>
                                     </div>
@@ -153,11 +156,12 @@
                                         <figure class="effect-bubba">
                                             <img src="img/tm-img-06-tn.jpg" alt="Image" class="img-fluid tm-img">
                                             <figcaption>
-                                                <h2 class="tm-figure-title">Question <span>Six</span></h2>
                                                 <?php
                                                 echo "<p class='tm-figure-description'>$title[5]</p>";
                                                 ?>
-                                                <a href="img/tm-img-06.jpg">View more</a>
+                                                <?php
+                                                echo "<a href='$url[5]'>View more</a>";
+                                                ?>
                                             </figcaption>
                                         </figure>
                                     </div>
@@ -165,11 +169,12 @@
                                         <figure class="effect-bubba">
                                             <img src="img/tm-img-07-tn.jpg" alt="Image" class="img-fluid tm-img">
                                             <figcaption>
-                                                <h2 class="tm-figure-title">Question <span>Seven</span></h2>
                                                 <?php
                                                 echo "<p class='tm-figure-description'>$title[6]</p>";
                                                 ?>
-                                                <a href="img/tm-img-07.jpg">View more</a>
+                                                <?php
+                                                echo "<a href='$url[6]'>View more</a>";
+                                                ?>
                                             </figcaption>           
                                         </figure>
                                     </div>
@@ -177,11 +182,12 @@
                                         <figure class="effect-bubba">
                                             <img src="img/tm-img-08-tn.jpg" alt="Image" class="img-fluid tm-img">
                                             <figcaption>
-                                                <h2 class="tm-figure-title">Question <span>Eight</span></h2>
                                                 <?php
                                                 echo "<p class='tm-figure-description'>$title[7]</p>";
                                                 ?>
-                                                <a href="img/tm-img-08.jpg">View more</a>
+                                                <?php
+                                                echo "<a href='$url[7]'>View more</a>";
+                                                ?>
                                             </figcaption>           
                                         </figure>
                                     </div>   
@@ -189,11 +195,12 @@
                                         <figure class="effect-bubba">
                                             <img src="img/tm-img-09-tn.jpg" alt="Image" class="img-fluid tm-img">
                                             <figcaption>
-                                                <h2 class="tm-figure-title">Question <span>Nine</span></h2>
                                                 <?php
                                                 echo "<p class='tm-figure-description'>$title[8]</p>";
                                                 ?>
-                                                <a href="img/tm-img-09.jpg">View more</a>
+                                                <?php
+                                                echo "<a href='$url[8]'>View more</a>";
+                                                ?>
                                             </figcaption>           
                                         </figure>
                                     </div>
@@ -201,11 +208,12 @@
                                         <figure class="effect-bubba">
                                             <img src="img/tm-img-10-tn.jpg" alt="Image" class="img-fluid tm-img">
                                             <figcaption>
-                                                <h2 class="tm-figure-title">Question <span>Ten</span></h2>
                                                 <?php
                                                 echo "<p class='tm-figure-description'>$title[9]</p>";
                                                 ?>
-                                                <a href="img/tm-img-10.jpg">View more</a>
+                                                <?php
+                                                echo "<a href='$url[9]'>View more</a>";
+                                                ?>
                                             </figcaption>
                                         </figure>
                                     </div>                                                                      
@@ -244,11 +252,12 @@
                                         <figure class="effect-bubba">
                                             <img src="img/tm-img-12-tn.jpg" alt="Image" class="img-fluid tm-img">
                                             <figcaption>
-                                                <h2 class="tm-figure-title">Question <span>One</span></h2>
                                                 <?php
                                                 echo "<p class='tm-figure-description'>$title[0]</p>";
                                                 ?>
-                                                <a href="img/tm-img-12.jpg">View more</a>
+                                                <?php
+                                                echo "<a href='$url[0]'>View more</a>";
+                                                ?>
                                             </figcaption>           
                                         </figure>
                                     </div>
@@ -256,11 +265,12 @@
                                         <figure class="effect-bubba">
                                             <img src="img/tm-img-11-tn.jpg" alt="Image" class="img-fluid tm-img">
                                             <figcaption>
-                                                <h2 class="tm-figure-title">Question <span>Two</span></h2>
                                                 <?php
                                                 echo "<p class='tm-figure-description'>$title[1]</p>";
                                                 ?>
-                                                <a href="img/tm-img-11.jpg">View more</a>
+                                                <?php
+                                                echo "<a href='$url[1]'>View more</a>";
+                                                ?>
                                             </figcaption>           
                                         </figure>
                                     </div>
@@ -268,11 +278,12 @@
                                         <figure class="effect-bubba">
                                             <img src="img/tm-img-10-tn.jpg" alt="Image" class="img-fluid tm-img">
                                             <figcaption>
-                                                <h2 class="tm-figure-title">Question <span>Three</span></h2>
                                                 <?php
                                                 echo "<p class='tm-figure-description'>$title[2]</p>";
                                                 ?>
-                                                <a href="img/tm-img-10.jpg">View more</a>
+                                                <?php
+                                                echo "<a href='$url[2]'>View more</a>";
+                                                ?>
                                             </figcaption>           
                                         </figure>
                                     </div>
@@ -280,11 +291,12 @@
                                         <figure class="effect-bubba">
                                             <img src="img/tm-img-09-tn.jpg" alt="Image" class="img-fluid tm-img">
                                             <figcaption>
-                                                <h2 class="tm-figure-title">Question <span>Four</span></h2>
                                                 <?php
                                                 echo "<p class='tm-figure-description'>$title[3]</p>";
                                                 ?>
-                                                <a href="img/tm-img-09.jpg">View more</a>
+                                                <?php
+                                                echo "<a href='$url[3]'>View more</a>";
+                                                ?>
                                             </figcaption>           
                                         </figure>
                                     </div>
@@ -292,11 +304,12 @@
                                         <figure class="effect-bubba">
                                             <img src="img/tm-img-08-tn.jpg" alt="Image" class="img-fluid tm-img">
                                             <figcaption>
-                                                <h2 class="tm-figure-title">Question <span>Five</span></h2>
                                                 <?php
                                                 echo "<p class='tm-figure-description'>$title[4]</p>";
                                                 ?>
-                                                <a href="img/tm-img-08.jpg">View more</a>
+                                                <?php
+                                                echo "<a href='$url[4]'>View more</a>";
+                                                ?>
                                             </figcaption>           
                                         </figure>
                                     </div>
@@ -304,11 +317,12 @@
                                         <figure class="effect-bubba">
                                             <img src="img/tm-img-07-tn.jpg" alt="Image" class="img-fluid tm-img">
                                             <figcaption>
-                                                <h2 class="tm-figure-title">Question <span>Six</span></h2>
                                                 <?php
                                                 echo "<p class='tm-figure-description'>$title[5]</p>";
                                                 ?>
-                                                <a href="img/tm-img-07.jpg">View more</a>
+                                                <?php
+                                                echo "<a href='$url[5]'>View more</a>";
+                                                ?>
                                             </figcaption>           
                                         </figure>
                                     </div>  
@@ -316,11 +330,12 @@
                                         <figure class="effect-bubba">
                                             <img src="img/tm-img-06-tn.jpg" alt="Image" class="img-fluid tm-img">
                                             <figcaption>
-                                                <h2 class="tm-figure-title">Question <span>Seven</span></h2>
                                                 <?php
                                                 echo "<p class='tm-figure-description'>$title[6]</p>";
                                                 ?>
-                                                <a href="img/tm-img-06.jpg">View more</a>
+                                                <?php
+                                                echo "<a href='$url[6]'>View more</a>";
+                                                ?>
                                             </figcaption>           
                                         </figure>
                                     </div>  
@@ -328,11 +343,12 @@
                                         <figure class="effect-bubba">
                                             <img src="img/tm-img-05-tn.jpg" alt="Image" class="img-fluid tm-img">
                                             <figcaption>
-                                                <h2 class="tm-figure-title">Question <span>Eight</span></h2>
                                                 <?php
                                                 echo "<p class='tm-figure-description'>$title[7]</p>";
                                                 ?>
-                                                <a href="img/tm-img-05.jpg">View more</a>
+                                                <?php
+                                                echo "<a href='$url[7]'>View more</a>";
+                                                ?>
                                             </figcaption>           
                                         </figure>
                                     </div>  
@@ -340,11 +356,12 @@
                                         <figure class="effect-bubba">
                                             <img src="img/tm-img-04-tn.jpg" alt="Image" class="img-fluid tm-img">
                                             <figcaption>
-                                                <h2 class="tm-figure-title">Question <span>Nine</span></h2>
                                                 <?php
                                                 echo "<p class='tm-figure-description'>$title[8]</p>";
                                                 ?>
-                                                <a href="img/tm-img-04.jpg">View more</a>
+                                                <?php
+                                                echo "<a href='$url[8]'>View more</a>";
+                                                ?>
                                             </figcaption>           
                                         </figure>
                                     </div>  
@@ -352,11 +369,12 @@
                                         <figure class="effect-bubba">
                                             <img src="img/tm-img-03-tn.jpg" alt="Image" class="img-fluid tm-img">
                                             <figcaption>
-                                                <h2 class="tm-figure-title">Question <span>Ten</span></h2>
                                                 <?php
                                                 echo "<p class='tm-figure-description'>$title[9]</p>";
                                                 ?>
-                                                <a href="img/tm-img-03.jpg">View more</a>
+                                                <?php
+                                                echo "<a href='$url[9]'>View more</a>";
+                                                ?>
                                             </figcaption>           
                                         </figure>
                                     </div>  
