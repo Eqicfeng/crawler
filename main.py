@@ -2,8 +2,6 @@ from bs4 import BeautifulSoup
 import requests
 import pymysql
 
-
-# 打开数据库连接
 db = pymysql.connect("localhost", "root", "", "test")
 cursor = db.cursor()
 
@@ -59,5 +57,4 @@ for i in range(len(keywords)):
       print(a[0]['href'])
       print(a[0].string)
 db.commit()
-# 关闭数据库连接
 db.close()
